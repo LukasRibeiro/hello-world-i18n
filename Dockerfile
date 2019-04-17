@@ -14,6 +14,6 @@ COPY --chown=node:node . .
 
 USER node
 
-EXPOSE 8500
+EXPOSE 8501
 
 CMD [ "node", "app.js" ]
